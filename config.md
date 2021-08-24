@@ -2,12 +2,12 @@
 Add here global page variables to use throughout your website.
 -->
 +++
-title = "Blog Title"
-description = "blog description"
-author = "Blog author"
+title = "Dhruva's Blog"
+description = "A collection of opinions, musings, guides and code"
+author = "Dhruva Sambrani"
 mintoclevel = 2
 prepath = "blog"
-repo_url = "github-url" # empty if not a repo
+repo_url = "DhruvaSambrani/blog"
 
 # Add here files or directories that should be ignored by Franklin, otherwise
 # these files might be copied and, if markdown, processed by Franklin which
@@ -19,7 +19,7 @@ ignore = ["node_modules/"]
 generate_rss = true
 website_title = title 
 website_descr = description
-website_url   = ""
+website_url   = "https://dhruvasambrani.github.io/blog/"
 +++
 
 <!--
