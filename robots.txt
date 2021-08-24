@@ -1,4 +1,4 @@
-Sitemap: sitemap.xml
+Sitemap: https://dhruvasambrani.github.io/blog/sitemap.xml
 
 User-agent: *
 Disallow:
