@@ -1,6 +1,6 @@
 using Markdown
 
-_get_date(filename) = split(filename, " ")[1]
+_get_date(filename) = split(filename, "_")[1]
 _get_title(filename) = pagevar("posts/$(filename)", "post_title")
 function _get_posts()
     fns = readdir("posts") .|> splitext .|> first
