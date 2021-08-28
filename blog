@@ -21,7 +21,7 @@ spcheck() {
     julia -q --project LanguageTool.jl "$1"
 }
 new() {
-    sensible-editor "$(dirname $0)/posts/$(date +%Y-%m-%d\ %H%M%S)"
+    sensible-editor "$(dirname $0)/posts/$(date +%Y-%m-%d_%H%M%S)"
 }
 
 _tree() {
@@ -38,7 +38,7 @@ serve() {
 
 publish() {
     git add -A
-    git commit -am "blog update $(date +%Y-%m-%d\ %H%M%S).md"
+    git commit -am "blog update $(date +%Y-%m-%d_%H%M%S).md"
     git push
 }
 
