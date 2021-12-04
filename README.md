@@ -17,7 +17,9 @@ This is a template for a [Franklin.jl](https://github.com/tlienart/Franklin.jl) 
 
 ### Grammar check
 
-As part of the blogging process, most people tend to run their work through a third party spell/grammar check, but these services are either not free (as in libre and as beer), or worse, do not even integrate with text editors. Hence, I have added a utility julia script called LanguageTool.jl which uses a local [LanguageTool](https://languagetool.org/) server to check your code.
+~~As part of the blogging process, most people tend to run their work through a third party spell/grammar check, but these services are either not free (as in libre and as beer), or worse, do not even integrate with text editors. Hence, I have added a utility julia script called LanguageTool.jl which uses a local [LanguageTool](https://languagetool.org/) server to check your code.~~
+
+LanguageTool has support for (n)vim and vscodium(vscode), and supporting the plugin seems pointless.
 
 ### Github action
 
