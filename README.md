@@ -1,5 +1,7 @@
 # Personal Blog Template
 
+!! Deprecated
+
 ## tl;dr
 
 1. Fork this repo
